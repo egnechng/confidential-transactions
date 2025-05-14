@@ -1,5 +1,5 @@
 # CSCI-GA 3033 (Cryptography of Blockchains) Final Project : Confidential Transactions with ZK-SNARKs - A Proof of Concept
-> This project demonstrates a simplified confidential transaction system using Zero-Knowledge SNARKs (Groth16) with Circom and snarkjs. It allows users to "deposit" and "withdraw" values while keeping the transaction amounts private, using a command-line interface for the demo.
+> Why do we even need confidential transactions? Most of us are familiar with blockchains like Ethereum or Bitcoin, where transparency is a key feature. Every transaction – who sent what to whom – is publicly visible on the ledger. While this is great for auditability, it poses significant privacy challenges for both individuals and businesses who might not want their financial activities exposed. This project demonstrates a simplified confidential transaction system using Zero-Knowledge SNARKs (Groth16) with Circom and snarkjs. It allows users to "deposit" and "withdraw" values while keeping the transaction amounts private, using a command-line interface for the demo.
 
 ## Core Concepts
 - Zero-Knowledge Proofs (ZK-SNARKs): Allows proving knowledge of some information without revealing the information itself. We use Groth16, a specific type of ZK-SNARK.
